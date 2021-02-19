@@ -1,0 +1,302 @@
+*{
+    scroll-behavior: smooth;
+}
+.full-website{
+    height: auto;
+    border: 2px solid red;
+}
+.first-room{
+   background-image: url(2.png), url(saimon.jpg);
+    height: auto;
+    opacity: 100;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  
+
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align:center;
+    padding: 15px;
+    margin-bottom: 135px;
+
+  
+
+}
+.logo h2{
+    color: rgb(254, 255, 250);
+    font: 100px;
+    padding: 5px;
+   
+}
+.menu{
+    width: 40%;
+    float: right;
+    padding: 15px;
+
+}
+.menu ul{
+    text-align: left;
+
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 0px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 25px;
+    color: white;
+}
+.menu ul li a:hover{
+    color:red;
+
+}
+.content {
+    margin-top: 20px;
+    background:#00000080;
+    clear: both;
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    color: rgb(217, 243, 69);
+    box-shadow: 0 0 10px yellow;
+    height: 210px;
+    padding-top: 65px;
+}
+.content h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.button{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 300px;
+}
+.about{
+    background:#000000a1;
+    border-radius: 10px;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid rgb(245, 248, 38);
+    padding: 10px;
+    margin-left: 340px;
+    box-shadow: 0 0 10px yellow;
+    animation-name: naim;
+    animation-duration: 2s;
+
+
+}
+ .about:hover{
+     background: yellow;
+     color: black;
+    
+}
+.contact{
+    background:#000000a1;
+    border-radius: 10px;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid rgb(245, 248, 38);
+    padding: 10px;
+    margin-right: 340px;
+    box-shadow: 0 0 10px yellow;
+
+}
+.contact:hover{
+    background: yellow;
+    color: black;
+}
+.about-me{
+    color: white;
+    margin-bottom: 200px;
+    
+}
+
+    
+.about-me h2{
+    background: black;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 10px yellow;
+
+}
+.about-me p{
+    background: #000000a1;
+    border: 5px double rgb(255, 231, 19);
+    width: 60%;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: justify;
+    padding:35px 20px;
+    box-shadow: 0 0 10px yellow;
+    
+
+}
+.third-room{
+    margin-top: 150px;
+    margin: 0 auto;
+   
+}
+.third-room h2{
+    background:black;
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px yellow;
+    font-size: 30px;
+    border: 2px double yellow;
+    margin-bottom: 20px;
+}
+.service{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto    ; 
+  margin-top: 80px;
+    
+
+}
+.box1{
+    background:#000000a1 ;
+    box-shadow: 0 0 10px yellow;
+    padding: 15px;
+    padding-top:-20px;
+    width: 30%;
+    
+}
+.box1 h3{
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+}
+.box1 p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 35px;
+    color: white;
+}
+.contact-room{
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+.contact-room h2{
+    background:black;
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px yellow;
+    font-size: 30px;
+    border: 2px double yellow;
+    margin-bottom: 20px;
+
+}
+.contact1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.contact-box{
+    margin-top: 150px;
+    background:#000000a1 ;
+    box-shadow: 0 0 10px yellow;
+    padding: 15px;
+    padding-top:-20px;
+    width: 35%;
+    height:30%
+    
+
+}
+.contact-box h4{
+
+        text-align: center;
+        font-size: 18px;
+        color: yellow;
+}
+.contact-box1{
+    margin-top: 60px;
+    background:#000000a1 ;
+    box-shadow: 0 0 10px yellow;
+    padding: 15px;
+    width: 35%;
+    padding-right: -15px;
+    text-align: center;
+    
+}
+input{
+    width: 70%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid red;
+    box-shadow: 0 0 5px yellow;
+    font-size: 18px;
+
+}
+textarea{
+    width: 70%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid red;
+    box-shadow: 0 0 5px yellow;
+    font-size: 18px;
+}
+.btn{
+    background:black;
+    color: white;
+    width: 50%%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px yellow;
+    font-size: 30px;
+    border: 2px double yellow;
+    
+}
+.btn:hover{
+     animation: naim 2s;
+    background: yellow;
+    color: black;
+}
+.copyright{
+    background:rgb(53, 43, 43);
+    color: white;
+    text-align: center;  
+    margin-bottom: -20px;  
+}
+.material-icons{
+    color: white;
+    font-size: 50px;
+    margin-left: 170px;
+    margin-top: 20px;
+}
